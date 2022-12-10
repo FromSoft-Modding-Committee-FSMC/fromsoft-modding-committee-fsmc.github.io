@@ -1,0 +1,57 @@
+body {
+	padding: 0%;
+	margin: 0%;
+    background-image: url('../resource/pagebackground.png');
+	background-repeat: repeat;
+}
+
+#navigation {
+	background-image: linear-gradient(#181818 60%, #101010);
+	outline: #242424 solid 1px;
+	outline-style:ridge;
+	color: whitesmoke;
+	overflow: auto;
+}
+
+#navigation-title {
+	float: left;
+}
+
+#navigation-item {
+	float: left;
+}
+
+#navigation-socialbar {
+	float:inline-end;
+}
+
+.navigation-button {
+	height: 48px;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	background-image: linear-gradient(#181818 60%, #101010);
+	color: whitesmoke;
+	border: none;
+}
+
+.navigation-button:hover {
+	background-image: linear-gradient(#080808 60%, #000000);
+}
+
+.discord-icon {
+	height: 32px;
+	padding-left: 32px;
+	background-image: url('../resource/discordicon_normal.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.discord-icon:hover {
+	padding-left: 32px;
+	background-image: url('../resource/discordicon_hover.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
