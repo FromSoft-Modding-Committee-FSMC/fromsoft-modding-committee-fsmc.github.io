@@ -1,0 +1,9 @@
+title: FromSoft Modding Committee
+email: no@nope.mp4
+description: >-
+  Homepage of the FromSoft Modding Committee - Home to all things related to
+  modding FromSoftware games!
+baseurl: ""
+url: "https://fromsoft.moddingcommittee.net"
+plugins:
+  - jekyll-feed
