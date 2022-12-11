@@ -39,7 +39,7 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	background: rgba(0, 0, 0, 0.6);
-	border-radius: 6px;
+	border-radius: 2px;
 }
 
 .page-main p {
@@ -47,6 +47,8 @@ body {
 	font-size: 12px;
 	color: whitesmoke;
 	opacity: 100%;
+	margin-top: 0;
+	padding-top: 5px;
 }
 
 .page-main h1 {
@@ -54,7 +56,25 @@ body {
 	font-size: 24px;
 	color: whitesmoke;
 	opacity: 100%;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
+
+.page-post {
+	padding: 8px;
+	background: rgba(80, 80, 80, 0.6);
+	border-radius: 6px;
+	outline: whitesmoke solid 1px;
+	outline-style:ridge;
+}
+
+.page-heading {
+	background: #000000;
+}
+.page-text {
+	background: #101010;
+}
+
 
 
 /*********************/
@@ -72,6 +92,12 @@ body {
 	float: right;
 }
 
+.nav-pagetitle {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 24px;
+	color: whitesmoke;
+	opacity: 100%;
+}
 
 /*********************/
 /* Navigation Button */

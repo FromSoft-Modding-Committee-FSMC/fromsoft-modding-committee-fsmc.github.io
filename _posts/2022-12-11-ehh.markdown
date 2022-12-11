@@ -1,0 +1,9 @@
+---
+layout: default
+title:  "Yay"
+date:   2022-12-11 00:45:00 -0800
+categories: misc
+---
+Finally... HTML works, CSS (doesn't) work, Jekyll works! Andddd posts work (I hope...) There's just a load of CSS to figure out, so let the headscratching and anger issues begin.
+
+Ehh, does this show up or is the first paragraph the brief? idk.
