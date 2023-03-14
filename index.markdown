@@ -2,7 +2,7 @@
 layout: default
 title: home
 ---
-<div class="page-heading"><h1>The Incredible FSMC Home Page.</h1></div>
+<div class="page-heading"><h1>The Incredible FSMC Home Page</h1></div>
 <div class="page-text">
     <p>
 	    <script>
@@ -23,14 +23,14 @@ title: home
 	    </script>
 	</p>
 </div>
-<div class="page-heading"><h1>Posts:</h1></div>
-{% for post in site.posts %}
-<div class="page-post">
-	<a href="{{ post.url }}"><h1>{{post.title}} - {{ post.date | date: "%Y/%m/%d"}}</h1>
-	</a>
-	<p></p>
-	{% if post.excerpt %}
-	{{ post.excerpt }}
-	{% endif %}
+<div class="page-heading"><h1>Posts:</h1>
+	{% for post in site.posts %}
+	<div class="page-text">
+	<a href="{{ post.url }}"><h1>{{post.title}} - {{ post.date | date: "%Y/%m/%d"}}</h1></a>
+		{% if post.excerpt %}
+		{{ post.excerpt }}
+		{% endif %}
+	<hr>
+	</div>
+	{% endfor %}
 </div>
-{% endfor %}
