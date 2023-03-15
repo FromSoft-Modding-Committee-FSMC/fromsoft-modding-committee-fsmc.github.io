@@ -6,18 +6,24 @@ title: home
 <div class="page-text">
     <p>
 	    <script>
-	        var motd = new Array();
-			motd[0]  = "Congratulations, you've reached here!";
-			motd[1]  = "Welcome to sweet f!$# all!";
-			motd[2]  = "Budget cuts mean this MOTD sucks.";
-			motd[3]  = "Ghidra is... Ghidra.";
-			motd[4]  = "Battenbergs are a very delicious type of cake.";
-			motd[5]  = "If you go to the Big Mine, make sure to put X key somewhere...";
-			motd[6]  = "Eiichi Hasagawa is an MVP.";
-			motd[7]  = "Kraken caps! Get 'em while they're hot!";
-			motd[8]  = "'How do you know she is a witch?'";
-			motd[9]  = "lab313ru is an MVP."
-			motd[10] = "Supplying mods for King's Field since 2021.";
+	        const motd = [
+			    "Congratulations, you've reached here!",
+			    "Welcome to sweet f!$# all!",
+			    "Budget cuts mean this MOTD sucks.",
+			    "Ghidra is... Ghidra.",
+			    "Battenbergs are a very delicious type of cake.",
+			    "If you go to the Big Mine, make sure to put X key somewhere...",
+			    "Eiichi Hasagawa is an MVP.",
+			    "Kraken caps! Get 'em while they're hot!",
+			    "'How do you know she is a witch?'",
+			    "lab313ru is an MVP.",
+			    "Supplying mods for King's Field since 2021.",
+                "YOU CAN'T CUT BACK ON MOTD FUNDING! YOU WILL REGRET THIS!",
+                "Optimization protip: Bake your Gouraud shading into textures to avoid higher framerates",
+                "KFModTool Creative Cloud - now only $499 a week!",
+                "Mendzen is an MVP.",
+                "What in Tarn nation?!"
+            ];
 			
 			document.write(motd[Math.floor(motd.length * Math.random())]);
 	    </script>
