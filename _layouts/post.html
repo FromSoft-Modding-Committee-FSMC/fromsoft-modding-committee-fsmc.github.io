@@ -2,7 +2,7 @@
 layout: default
 ---
 <script>
-    const postDate = Date("{{page.date}}").toLocaleString();
+    const postDate = new Date("{{page.date}}").toString();
 </script>
 <h1>{{page.title}}</h1>
 <p class="page-smalltext">Written in <script>document.write(postDate)</script> by {{page.author}}</p>
