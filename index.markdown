@@ -32,7 +32,7 @@ title: home
 <div class="page-heading"><h1>Posts:</h1>
 	{% for post in site.posts %}
 	<div class="page-text">
-	<a href="{{ post.url }}"><h1>{{post.title}} - {{ post.date | date: "%Y/%m/%d"}}</h1></a>
+	<a href="{{ post.url }}"><h2>{{post.title}} - {{ post.date | date: "%Y/%m/%d"}}</h2></a>
 		{% if post.excerpt %}
 		{{ post.excerpt }}
 		{% endif %}

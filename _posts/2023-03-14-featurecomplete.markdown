@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+author: "TheStolenBattenberg"
 title:  "Feature Complete"
 date:   2023-03-14 00:17:00 -0800
 categories: website
